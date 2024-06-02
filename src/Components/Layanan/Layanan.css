@@ -1,0 +1,16 @@
+.parent-layanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.img-layanan {
+    width: 100%;
+}
+
+@media only screen and (min-width : 344px) and (max-width : 667px) {
+    .parent-layanan {
+        gap: 10px;
+    }
+  }

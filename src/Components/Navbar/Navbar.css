@@ -1,0 +1,43 @@
+.parent-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a705f;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 500;
+}
+.parent-text-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.item-nav {
+    list-style: none;
+    cursor: pointer;
+}
+.img-logo {
+    width: 13%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-nav {
+    background-color: #d1bd74;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: #0b4a3d;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (min-width : 344px) and (max-width : 992px) {
+    .parent-navbar {
+        display: none;
+    }
+  }
